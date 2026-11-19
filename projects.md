@@ -8,7 +8,7 @@ permalink: /projects/
 
 # A1Gh0st | Cybersecurity Projects
 
-**[Home](/) | [Projects](/projects/) | [TryHackMe Writeups](/writeups/)**
+**[Home](/) | [Projects](/projects/) | [TryHackMe Writeups](/thm-writeups/)**
 
 ---
 
