@@ -1,7 +1,7 @@
 ---
 layout: default
-title: THM Writeups
-permalink: /thm-writeups/
+title: TryHackMe Write-Ups
+permalink: /tryhackme-writeups/
 ---
 
 <link rel="stylesheet" href="/assets/main.css">
@@ -13,12 +13,12 @@ permalink: /thm-writeups/
   &nbsp; | &nbsp;
   <a href="/projects/" style="color:#00e5ff; background:transparent; text-decoration:none;">Projects</a>
   &nbsp; | &nbsp;
-  <a href="/thm-writeups/" style="color:#00e5ff; background:transparent; text-decoration:none;">THM Writeups</a>
+  <a href="/thm-writeups/" style="color:#00e5ff; background:transparent; text-decoration:none;">TryHackMe Write-ups</a>
 </nav>
 
 ---
 
-## Welcome to My TryHackMe Writeups
+## Welcome to My TryHackMe Write-ups
 
 This is where I document my hands-on cybersecurity training, including vulnerability research, exploitation, system enumeration, and security investigations.
 
@@ -26,7 +26,7 @@ My goal is to develop practical penetration testing skills while documenting wha
 
 ---
 
-## Featured Writeup: Bricks Heist
+## Featured Write-up: Bricks Heist
 
 **Platform:** TryHackMe  
 **Room:** TryHack3M: Bricks Heist  
