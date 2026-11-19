@@ -19,6 +19,14 @@ permalink: /thm-writeups/
 ---
 
 
+<div style="text-align:center; margin:25px 0;">
+  <img src="/THM%20SS.jpeg"
+       alt="TryHackMe logo"
+       style="width:300px; max-width:100%; height:auto;">
+</div>
+
+
+
 <h2>Welcome to My Try Hack Me Write-ups</h2>
 
 <p>
