@@ -42,3 +42,26 @@ pre, code {
 .site-nav .page-link {
   color: #00e5ff;
 }
+/* A1Gh0st Navigation Styling */
+
+p:has(> strong > a) {
+  background-color: #101827 !important;
+  padding: 12px 16px;
+  border: 1px solid #00e5ff;
+  border-radius: 6px;
+}
+
+p:has(> strong > a) strong,
+p:has(> strong > a) a {
+  background-color: transparent !important;
+}
+
+p:has(> strong > a) a,
+p:has(> strong > a) a:visited {
+  color: #00e5ff !important;
+  text-decoration: none;
+}
+
+p:has(> strong > a) a:hover {
+  color: #ffffff !important;
+  text-decoration: underline;
