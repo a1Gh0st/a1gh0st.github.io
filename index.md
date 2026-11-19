@@ -3,7 +3,7 @@ layout: default
 ---
 <link rel="stylesheet" href="/assets/main.css">
 
-# A1Gh0st 
+
 **[Home](/) | [About](#about-this-blog) | [Projects](/projects/) | [Current Focus](#current-focus) | [Connect](#connect-with-me)**
 <div style="text-align: center;">
 <img src="/986E615A-98FE-420B-9E24-6C757C8A68EC (1).PNG" alt= "A1Gh0st Cybersecurity Mascot" width="300">
