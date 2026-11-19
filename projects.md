@@ -8,7 +8,13 @@ permalink: /projects/
 
 # A1Gh0st | Cybersecurity Projects
 
-**[Home](/) | [Projects](/projects/) | [TryHackMe Writeups](/thm-writeups/)**
+<nav style="background-color:#101827; padding:15px; border:1px solid #00e5ff; border-radius:6px;">
+  <a href="/" style="color:#00e5ff; background:transparent; text-decoration:none;">Home</a>
+  &nbsp; | &nbsp;
+  <a href="/projects/" style="color:#00e5ff; background:transparent; text-decoration:none;">Projects</a>
+  &nbsp; | &nbsp;
+  <a href="/thm-writeups/" style="color:#00e5ff; background:transparent; text-decoration:none;">THM Writeups</a>
+</nav>
 
 ---
 
