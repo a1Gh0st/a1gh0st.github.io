@@ -1,3 +1,8 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="/assets/main.css">
+
 # A1Gh0st 
 
 ### Cybersecurity | Ethical Hacking | Penetration Testing
