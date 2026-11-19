@@ -61,8 +61,27 @@ My biggest takeaway was understanding how reconnaissance, vulnerability research
 
 Every finding helped determine my next step. This exercise reinforced the importance of documenting evidence and understanding why a vulnerability exists instead of simply running an exploit.
 
-## Full Technical Report
 
-A detailed 12-page penetration testing report is available.
 
-**PDF download link coming soon.**
+
+
+<h2>Full Technical Report</h2>
+
+<p>Read my complete 12-page Bricks Heist penetration testing report below.</p>
+
+<iframe
+  src="/A1Gh0st_Bricks_Heist_Penetration_Test_Report.pdf"
+  width="100%"
+  height="750"
+  style="border:1px solid #00e5ff; border-radius:8px;"
+  title="Bricks Heist Penetration Testing Report">
+</iframe>
+
+<p>
+  <a href="/A1Gh0st_Bricks_Heist_Penetration_Test_Report.pdf"
+     target="_blank" rel="noopener noreferrer">
+    Open Full Report in New Tab
+  </a>
+</p>
+
+
