@@ -66,3 +66,13 @@ p:has(> strong > a) a:hover {
   color: #ffffff !important;
   text-decoration: underline;
 }
+
+/* A1Gh0st Header - Slashed Zero */
+
+.site-title,
+.site-title:visited {
+  font-family: "DejaVu Sans Mono", "Consolas", monospace;
+  font-variant-numeric: slashed-zero;
+  font-feature-settings: "zero" 1;
+  color: #00e5ff;
+}
