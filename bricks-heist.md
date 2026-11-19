@@ -6,7 +6,7 @@ permalink: /thm-writeups/bricks-heist/
 
 <link rel="stylesheet" href="/assets/main.css">
 
-# A1Gh0st | Bricks Heist
+#  Bricks Heist
 
 
 
