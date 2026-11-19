@@ -1,7 +1,7 @@
 ---
 layout: default
 title: TryHackMe Write-Ups
-permalink: /tryhackme-writeups/
+permalink: /thm-writeups/
 ---
 
 <link rel="stylesheet" href="/assets/main.css">
