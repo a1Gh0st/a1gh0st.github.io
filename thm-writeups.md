@@ -18,86 +18,41 @@ permalink: /thm-writeups/
 
 ---
 
-## Welcome to My TryHackMe Write-ups
 
-This is where I document my hands-on cybersecurity training, including vulnerability research, exploitation, system enumeration, and security investigations.
+<h2>Welcome to My Try Hack Me Write-ups</h2>
 
-My goal is to develop practical penetration testing skills while documenting what I learn along the way.
+<p>
+This is where I document my hands-on cybersecurity journey through TryHackMe.
+Each write-up covers the tools I used, techniques I practiced,
+challenges I encountered, and lessons I learned.
+</p>
 
----
+<p>
+My goal is to build real-world penetration testing skills
+and document my progress along the way.
+</p>
 
-## Featured Write-up: Bricks Heist
+<hr>
 
-**Platform:** TryHackMe  
-**Room:** TryHack3M: Bricks Heist  
-**Date Completed:** November 19, 2026  
-**Category:** Penetration Testing / Incident Investigation  
-**Status:** Completed
+<h2>Completed Labs</h2>
 
-### Objective
+<div style="display:flex; flex-wrap:wrap; gap:20px; margin-top:20px;">
 
-Investigate a vulnerable WordPress application, identify security weaknesses, gain authorized access, and analyze evidence of suspicious cryptocurrency mining activity.
+  <a href="/thm-writeups/bricks-heist/"
+     style="display:block; width:240px; max-width:100%; padding:20px;
+     background:#101827; border:1px solid #00e5ff;
+     border-radius:10px; text-decoration:none;">
 
-### Tools Used
+    <h3 style="color:#00e5ff; margin-top:0;">Bricks Heist</h3>
 
-- Nmap
-- Firefox Developer Tools
-- SearchSploit
-- Metasploit Framework
-- Meterpreter
-- Linux command-line utilities
-- grep, sed, xxd, and Base64
+    <p style="color:#e2e8f0;">
+      WordPress vulnerability exploitation,
+      post-exploitation investigation,
+      and cryptocurrency mining analysis.
+    </p>
 
-### Key Findings
+    <p style="color:#00e5ff;">View Write-up →</p>
 
-**1. Network Reconnaissance**
+  </a>
 
-Used Nmap to identify exposed services and investigate potential attack surfaces.
-
-**2. Vulnerability Discovery**
-
-Identified CVE-2024-25600, a critical remote code execution vulnerability affecting WordPress Bricks Builder.
-
-**3. Exploitation**
-
-Successfully exploited the vulnerability using Metasploit and established a Meterpreter session under the apache account.
-
-**4. Post-Exploitation Investigation**
-
-Investigated suspicious processes, system services, and files associated with cryptocurrency mining activity.
-
-**5. Log Analysis**
-
-Recovered and analyzed mining-related logs from the compromised system.
-
-**6. Encoded Data Analysis**
-
-Used hexadecimal and Base64 decoding to recover an embedded Bitcoin wallet address.
-
-### Biggest Takeaway
-
-This lab taught me how different penetration testing techniques connect during a real investigation.
-
-I started with reconnaissance, identified a vulnerable application, researched the vulnerability, successfully exploited it, and investigated suspicious activity after gaining access.
-
-The biggest lesson was understanding why each step matters and how evidence guides the next step of an investigation.
-
-### Full Penetration Testing Report
-
-A detailed 12-page technical report documenting the methodology, commands, findings, and remediation recommendations is available.
-
-**PDF report link coming soon.**
-
----
-
-## More Writeups Coming Soon
-
-As I complete additional TryHackMe rooms, I'll document:
-
-- Reconnaissance and enumeration
-- Vulnerability assessment
-- Web application exploitation
-- Linux and Windows privilege escalation
-- Post-exploitation investigation
-- Security tools and techniques
-- Lessons learned
+</div>
