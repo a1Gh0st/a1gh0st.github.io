@@ -6,7 +6,7 @@ permalink: /projects/
 
 <link rel="stylesheet" href="/assets/main.css">
 
-# A1Gh0st | Cybersecurity Projects
+# Cybersecurity Projects
 
 <nav style="background-color:#101827; padding:15px; border:1px solid #00e5ff; border-radius:6px;">
   <a href="/" style="color:#00e5ff; background:transparent; text-decoration:none;">Home</a>
