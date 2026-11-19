@@ -84,4 +84,8 @@ Every finding helped determine my next step. This exercise reinforced the import
   </a>
 </p>
 
+## Download
+
+[Download Full Penetration Testing Report (PDF)](/A1Gh0st_Bricks_Heist_Penetration_Test_Report.pdf)
+
 
