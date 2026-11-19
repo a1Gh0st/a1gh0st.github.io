@@ -4,7 +4,7 @@ layout: default
 <link rel="stylesheet" href="/assets/main.css">
 
 # A1Gh0st 
-**[Home](/) | [About](#about-this-blog) | [Current Focus](#current-focus | [Connect](#connect-with-me)**
+**[Home](/) | [About](#about-this-blog) | [Current Focus](#current-focus) | [Connect](#connect-with-me)**
 
 ### Cybersecurity | Ethical Hacking | Penetration Testing
 
