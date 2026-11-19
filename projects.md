@@ -13,7 +13,7 @@ permalink: /projects/
   &nbsp; | &nbsp;
   <a href="/projects/" style="color:#00e5ff; background:transparent; text-decoration:none;">Projects</a>
   &nbsp; | &nbsp;
-  <a href="/thm-writeups/" style="color:#00e5ff; background:transparent; text-decoration:none;">THM Writeups</a>
+  <a href="/thm-writeups/" style="color:#00e5ff; background:transparent; text-decoration:none;">TryHackMe Write-ups</a>
 </nav>
 
 ---
