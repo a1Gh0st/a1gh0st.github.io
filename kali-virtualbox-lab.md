@@ -143,6 +143,32 @@ This VirtualBox project is separate from the [Linux Home Lab](/projects/linux-ho
   </div>
 </div>
 
+## Learning Resource: Kali Linux Post-Installation Guide
+
+<div style="background:#101827;border:1px solid #2a5368;border-radius:10px;padding:18px 20px;margin:1rem 0 1.5rem;">
+  <p style="margin:0 0 8px;color:#00e5ff;font-weight:700;letter-spacing:.07em;font-size:.8rem;">EXTERNAL LEARNING RESOURCE / KALI SETUP</p>
+  <h3 style="margin:0 0 10px;color:#e2f8ff;">Top Things to Do After Installing Kali Linux in 2026</h3>
+  <p style="margin:0 0 10px;color:#b9cad9;">By Stefan Rows, ceos3c. Updated November 8, 2026.</p>
+  <a href="https://www.ceos3c.com/security/top-things-after-installing-kali-linux/" target="_blank" rel="noopener noreferrer" style="color:#00e5ff;text-decoration:underline;">Read the original post-installation guide</a>
+</div>
+
+### Article Summary
+
+The guide walks through what to do **after Kali Linux starts successfully**, moving from basic system setup to a usable security workstation. Its main recommendation is to establish a secure, updated, recoverable installation *before* adding a large collection of security tools.
+
+1. **Configure the system and update Kali.** Check the keyboard layout and apply package updates using `apt update` and `apt full-upgrade`. The author also explains troubleshooting a missing Kali archive signing key and notes the newer Debian-style repository configuration used in Kali 2026.2.
+2. **Secure the user account.** Change the password if using the common `kali` login credentials. Modern Kali already uses a non-root default account, so creating another user is optional rather than mandatory.
+3. **Make recovery easy.** Take a VirtualBox snapshot so configuration mistakes can be rolled back. The article also discusses convenient host/guest integration through shared clipboard and drag-and-drop.
+4. **Customize the working environment.** Explore `kali-tweaks` for hardening, package groups, shell settings, and virtualization options. It also suggests optional terminal improvements such as Guake, prompt customization, and a code editor such as VS Code.
+5. **Build a purposeful security toolkit.** The guide introduces Greenbone Vulnerability Management (GVM, formerly OpenVAS) and other reconnaissance, web-testing, and general security utilities. The point is to install tools that serve actual lab objectives, not every available package.
+6. **Consider additional workflow tools and keep learning.** The author recommends VPN setup for their workflow, covers Kali Undercover mode, and closes with training and reading resources. These extras are separate from the essential installation and update tasks.
+
+**Application to this lab:** The immediate priorities are to record VirtualBox settings, verify networking, secure the login, take a snapshot, and update Kali. Tool installations, clipboard sharing, a VPN, and desktop customization can wait until they have a clear purpose. This priority order is an A1Gh0st adaptation of the article, not a claim that any of those tasks are already finished.
+
+**Source:** [ceos3c, “Top Things to Do After Installing Kali Linux in 2026”](https://www.ceos3c.com/security/top-things-after-installing-kali-linux/). This is a summary of an external article; the original author retains credit for the guide.
+
+---
+
 ## Post-Installation Checklist
 
 The following checklist adapts recommendations from the [ceos3c Kali Linux post-installation guide](https://www.ceos3c.com/security/top-things-after-installing-kali-linux/) to this VirtualBox learning environment. **All items below are pending verification**, not completed achievements.
