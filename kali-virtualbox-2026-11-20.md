@@ -155,9 +155,123 @@ The lesson also challenged students to travel from `/etc` back to the Desktop us
 - **Practical evidence:** No screenshots or terminal output from this specific exercise have been submitted.
 - **Next practice:** In the Kali VM, demonstrate navigation from `/etc` to the Desktop, check each location with `pwd`, and record the actual result without publishing personal usernames or network information.
 
+## Udemy Lesson: Creating Files & Managing Directories
+
+**Course:** Complete Ethical Hacking Bootcamp (Udemy)  
+**Section:** 3 of 25 — Linux Operating System  
+**Lesson:** 21 — Creating Files &amp; Managing Directories (13 minutes)  
+**Lesson status:** Completed as shown in the Section 3 course screenshot  
+**Documentation source:** Instructor transcript supplied for this lesson; no individual command output from the A1Gh0st Kali VM has been submitted.
+
+### Lesson Objective
+
+Understand how to create, inspect, edit, copy, move, and remove files and directories using the Kali Linux terminal. The instructor builds on earlier navigation commands (`pwd`, `cd`, and `ls`) by showing how filesystem content is managed directly from the shell.
+
+### Main Concepts
+
+- **Creating and inspecting text files:** `touch` creates an empty file, `cat` displays its contents, and `echo` combined with `>` writes text to a file. The `>` operator replaces existing file contents, so its destination matters.
+- **Editing with Nano:** `nano` is a terminal-based text editor. The instructor creates a text file and saves it using **Ctrl+O**, confirms the filename with **Enter**, then exits with **Ctrl+X**.
+- **Creating and executing a Python script:** The lesson uses `nano` to save `file3.py` with a simple `print("Hello World")` statement, then demonstrates executing it with `python3 file3.py`. This is a basic example of editing and running source code from the terminal.
+- **Creating directories:** `mkdir` creates a folder that can hold files and other subdirectories.
+- **Moving versus copying:** `mv` transfers a file to another location, while `cp` preserves the original and creates another copy.
+- **Deleting safely:** `rm` removes a file; recursive removal with `rm -r` can delete a folder and everything inside it. The instructor accidentally removed more than intended during the demonstration, reinforcing the need to inspect the current directory and target before any destructive command.
+
+### Commands Covered
+
+<div class="a1-command-grid" style="max-width:100%;overflow-x:auto;border:1px solid #36546a;border-radius:10px;margin:1rem 0 1.5rem;background-color:#101827 !important;">
+  <div role="table" aria-label="File and directory management commands from the Udemy lesson" style="width:100%;min-width:510px;background-color:#101827 !important;color:#e2e8f0 !important;">
+    <div role="row" style="display:grid;grid-template-columns:minmax(190px,38%) minmax(0,1fr);background-color:#173047 !important;border-bottom:1px solid #36546a;">
+      <div role="columnheader" style="padding:12px 15px;border-right:1px solid #36546a;color:#65f0ff !important;background-color:#173047 !important;font-weight:700;">Command</div>
+      <div role="columnheader" style="padding:12px 15px;color:#65f0ff !important;background-color:#173047 !important;font-weight:700;">Purpose</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(190px,38%) minmax(0,1fr);background-color:#101827 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="min-width:0;overflow-wrap:anywhere;padding:11px 15px;border-right:1px solid #36546a;color:#60e8f5 !important;background-color:transparent !important;font:500 .86rem/1.55 Consolas,Monaco,monospace;">touch file1</div>
+      <div role="cell" style="min-width:0;padding:11px 15px;color:#e1edf6 !important;background-color:transparent !important;line-height:1.55;">Creates an empty file if it does not exist</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(190px,38%) minmax(0,1fr);background-color:#142236 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="min-width:0;overflow-wrap:anywhere;padding:11px 15px;border-right:1px solid #36546a;color:#60e8f5 !important;background-color:transparent !important;font:500 .86rem/1.55 Consolas,Monaco,monospace;">cat file1</div>
+      <div role="cell" style="min-width:0;padding:11px 15px;color:#e1edf6 !important;background-color:transparent !important;line-height:1.55;">Displays the file's current contents</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(190px,38%) minmax(0,1fr);background-color:#101827 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="min-width:0;overflow-wrap:anywhere;padding:11px 15px;border-right:1px solid #36546a;color:#60e8f5 !important;background-color:transparent !important;font:500 .86rem/1.55 Consolas,Monaco,monospace;">echo "Today is a good day" &gt; file1</div>
+      <div role="cell" style="min-width:0;padding:11px 15px;color:#e1edf6 !important;background-color:transparent !important;line-height:1.55;">Writes text into a file using output redirection</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(190px,38%) minmax(0,1fr);background-color:#142236 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="min-width:0;overflow-wrap:anywhere;padding:11px 15px;border-right:1px solid #36546a;color:#60e8f5 !important;background-color:transparent !important;font:500 .86rem/1.55 Consolas,Monaco,monospace;">nano file2</div>
+      <div role="cell" style="min-width:0;padding:11px 15px;color:#e1edf6 !important;background-color:transparent !important;line-height:1.55;">Opens a terminal text editor for editing or creating a file</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(190px,38%) minmax(0,1fr);background-color:#101827 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="min-width:0;overflow-wrap:anywhere;padding:11px 15px;border-right:1px solid #36546a;color:#60e8f5 !important;background-color:transparent !important;font:500 .86rem/1.55 Consolas,Monaco,monospace;">python3 file3.py</div>
+      <div role="cell" style="min-width:0;padding:11px 15px;color:#e1edf6 !important;background-color:transparent !important;line-height:1.55;">Runs the saved Python script with Python 3</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(190px,38%) minmax(0,1fr);background-color:#142236 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="min-width:0;overflow-wrap:anywhere;padding:11px 15px;border-right:1px solid #36546a;color:#60e8f5 !important;background-color:transparent !important;font:500 .86rem/1.55 Consolas,Monaco,monospace;">mkdir folder</div>
+      <div role="cell" style="min-width:0;padding:11px 15px;color:#e1edf6 !important;background-color:transparent !important;line-height:1.55;">Creates a directory named folder</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(190px,38%) minmax(0,1fr);background-color:#101827 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="min-width:0;overflow-wrap:anywhere;padding:11px 15px;border-right:1px solid #36546a;color:#60e8f5 !important;background-color:transparent !important;font:500 .86rem/1.55 Consolas,Monaco,monospace;">mv file3.py folder/</div>
+      <div role="cell" style="min-width:0;padding:11px 15px;color:#e1edf6 !important;background-color:transparent !important;line-height:1.55;">Moves the Python file into the folder directory</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(190px,38%) minmax(0,1fr);background-color:#142236 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="min-width:0;overflow-wrap:anywhere;padding:11px 15px;border-right:1px solid #36546a;color:#60e8f5 !important;background-color:transparent !important;font:500 .86rem/1.55 Consolas,Monaco,monospace;">cp file3.py file4.py</div>
+      <div role="cell" style="min-width:0;padding:11px 15px;color:#e1edf6 !important;background-color:transparent !important;line-height:1.55;">Creates a copy of a file under a new name</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(190px,38%) minmax(0,1fr);background-color:#101827 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="min-width:0;overflow-wrap:anywhere;padding:11px 15px;border-right:1px solid #36546a;color:#60e8f5 !important;background-color:transparent !important;font:500 .86rem/1.55 Consolas,Monaco,monospace;">rm file4.py</div>
+      <div role="cell" style="min-width:0;padding:11px 15px;color:#e1edf6 !important;background-color:transparent !important;line-height:1.55;">Deletes a file; not sent to a graphical trash bin</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(190px,38%) minmax(0,1fr);background-color:#142236 !important;">
+      <div role="cell" style="min-width:0;overflow-wrap:anywhere;padding:11px 15px;border-right:1px solid #36546a;color:#60e8f5 !important;background-color:transparent !important;font:500 .86rem/1.55 Consolas,Monaco,monospace;">rm -r folder2</div>
+      <div role="cell" style="min-width:0;padding:11px 15px;color:#e1edf6 !important;background-color:transparent !important;line-height:1.55;">Recursively removes a directory and its contents; use with extreme care</div>
+    </div>
+  </div>
+</div>
+
+### Terminal Walkthrough
+
+The following sequence illustrates the **commands and workflow taught in the video**. It is **not** a record of commands personally executed in the A1Gh0st VM. It assumes the `~/Desktop` directory exists. After launching `nano file3.py`, the instructor enters `print("Hello World")`, saves using **Ctrl+O**, then exits using **Ctrl+X** before running the script.
+
+<div class="a1-terminal-demo" style="margin:1rem 0 1.5rem;background-color:#0d1828 !important;border:1px solid #366178;border-radius:10px;overflow:hidden;">
+  <div style="background-color:#173047 !important;color:#83ebf5 !important;padding:10px 16px;border-bottom:1px solid #366178;font-size:.75rem;letter-spacing:.09em;font-weight:700;">TERMINAL / EXAMPLE FROM COURSE CONCEPTS, NOT VERIFIED LAB OUTPUT</div>
+  <pre style="display:block;box-sizing:border-box;max-width:100%;overflow-x:auto;background-color:#0d1828 !important;color:#d7f7ff !important;border:0 !important;box-shadow:none !important;margin:0 !important;padding:18px 20px !important;font:500 .91rem/1.7 Consolas,Monaco,monospace !important;white-space:pre !important;"><code style="background-color:transparent !important;color:#d7f7ff !important;border:0 !important;padding:0 !important;font:inherit !important;">cd ~/Desktop
+touch file1
+echo "Today is a good day" &gt; file1
+cat file1
+nano file2
+nano file3.py
+python3 file3.py
+mkdir folder
+mv file3.py folder/
+cd folder
+cp file3.py file4.py
+ls</code></pre>
+</div>
+
+**Expected distinction:** `mv` removes the file from its original location by moving it, while `cp` leaves the source file in place. The example creates `file4.py` as a copy of `file3.py` after moving the original script into the folder.
+
+### Deletion and Safety Notes
+
+The lesson uses `rm` to delete a copied file and demonstrates recursive directory deletion. Unlike using a desktop file manager, ordinary shell deletion does not send files to a familiar Trash folder. A recursive deletion command aimed at the wrong path or combined with a wildcard can destroy important data.
+
+**Recommended lab practice:** Before deleting anything, verify location with `pwd` and inspect the target with `ls`. No destructive deletion command is included in the illustrative walkthrough above.
+
+### Instructor's Practice Challenge
+
+Create a Python file named `file3.py` **inside a folder** and then copy it back to the Desktop using the commands covered. This was assigned in the lesson as practice. **Completion of the challenge has not yet been independently documented** for the A1Gh0st lab.
+
+### Key Takeaway
+
+The Linux terminal is not only for viewing folders. It can build and organize a working environment, edit source files, and execute programs. These file and directory operations are foundational for managing scripts, evidence, and other resources during authorized cybersecurity work.
+
+### Evidence and Follow-Up
+
+- **Learning evidence:** Section 3 completion screenshot and this lesson's provided transcript.
+- **Practical evidence:** No separate terminal output or screenshot confirming this lesson's commands in the A1Gh0st VM.
+- **Next step:** Repeat a safe file-management exercise, verify the results with `ls` and `cat`, and record the outcome in a dated thread.
+
 ## Reflection
 
-Getting Kali Linux running inside VirtualBox establishes the foundation for an isolated training environment. The terminal navigation lesson provides a starting point for exploring the filesystem without the graphical file manager. Next steps are to verify commands in the VM and record a reproducible configuration.
+Getting Kali Linux running inside VirtualBox establishes the foundation for an isolated training environment. The terminal-navigation and file-management lessons introduce how to move through the filesystem, create or edit files, organize directories, and run a simple Python script. The next step is to verify these commands directly in the VM and document actual results, including safe handling of commands that delete files.
 
 ---
 
