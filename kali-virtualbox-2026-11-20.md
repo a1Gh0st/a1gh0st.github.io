@@ -34,6 +34,8 @@ As of **November 20, 2026**, Oracle VirtualBox was installed, Kali Linux had bee
 
 The environment supports the hands-on portion of the **Complete Ethical Hacking Bootcamp** and provides a starting point for Linux administration, networking, and authorized security training.
 
+**Udemy course progress (November 20, 2026):** Currently studying **Section 3 of 25**. Sections 1 and 2 were reported complete. Section 3 is **in progress**, not completed. This course-level status is separate from the completed terminal-navigation lesson documented below.
+
 ## What Has Been Verified
 
 - **Oracle VirtualBox installed:** A local virtual machine platform is available.
