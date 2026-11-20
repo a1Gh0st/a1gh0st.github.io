@@ -8,6 +8,8 @@ layout: default
   &nbsp; | &nbsp;
   <a href="/about/" style="color:#00e5ff; background:transparent; text-decoration:none;">About A1Gh0st</a>
   &nbsp; | &nbsp;
+  <a href="/goals/" style="color:#00e5ff; background:transparent; text-decoration:none;">Goals</a>
+  &nbsp; | &nbsp;
   <a href="/projects/" style="color:#00e5ff; background:transparent; text-decoration:none;">Projects</a>
   &nbsp; | &nbsp;
   <a href="#connect-with-a1gh0st" style="color:#00e5ff; background:transparent; text-decoration:none;">Connect</a>
