@@ -269,9 +269,120 @@ The Linux terminal is not only for viewing folders. It can build and organize a 
 - **Practical evidence:** No separate terminal output or screenshot confirming this lesson's commands in the A1Gh0st VM.
 - **Next step:** Repeat a safe file-management exercise, verify the results with `ls` and `cat`, and record the outcome in a dated thread.
 
+## Udemy Lesson: Network Commands & Sudo Privileges in Kali
+
+**Course:** Complete Ethical Hacking Bootcamp (Udemy)  
+**Section:** 3 of 25 — Linux Operating System  
+**Lesson:** 22 — Network Commands &amp; Sudo Privileges in Kali (11 minutes)  
+**Lesson status:** Complete, based on the Section 3 completion screenshot  
+**Documentation source:** User-supplied instructor transcript; no output from running these commands in the A1Gh0st Kali VM has been provided.
+
+### Lesson Objective
+
+Learn how to recognize local network interfaces, interpret IP and MAC addresses, understand Linux administrator permissions, and correctly copy files using explicit paths.
+
+### Concepts Covered
+
+- **Copying to the right location:** The lesson resolves the previous exercise. If `Desktop` is not an existing directory relative to the working folder, a command such as `cp file3.py Desktop` can create a *file* named `Desktop` rather than copy into the user's desktop folder. Specify the actual destination, such as `cp file3.py "$HOME/Desktop/copy.py"`, after checking that the folder exists. Linux paths are case-sensitive.
+- **Network interfaces:** The instructor uses `ifconfig` to display interfaces, local IP addresses, and hardware addresses. An interface could have a name like `eth0` or `enp0s3` (depending on the VM and OS). The loopback interface `lo` usually includes the IPv4 address `127.0.0.1`.
+- **Private versus public IP addresses:** An address such as `192.168.1.12` is a private IPv4 address used within networks. Such addresses can be reused by separate private networks; internet-facing connections may use a different public address and network address translation.
+- **MAC addresses:** A MAC address identifies a network interface at the link layer, primarily on the local network segment. MAC addresses can be randomized, changed, or duplicated in virtual environments, so treating every MAC as a permanent worldwide-unique device identity is inaccurate.
+- **Privilege elevation:** `sudo` permits authorized users to run particular commands with elevated privileges, typically as root. A root shell can be started with `sudo -i` when genuinely necessary and closed with `exit`. Working as an ordinary user by default limits the damage caused by mistakes.
+- **File ownership and permissions:** Root-owned or otherwise restricted files may not be writable by the normal user. Use `ls -l` to inspect ownership and permissions before deciding which administrative action is appropriate.
+
+### Commands Covered
+
+<div class="a1-command-grid" style="overflow-x:auto;max-width:100%;margin:1rem 0 1.5rem;border:1px solid #36546a;border-radius:10px;background-color:#101827 !important;">
+  <div role="table" aria-label="Linux networking and administrator command reference" style="min-width:560px;width:100%;background-color:#101827 !important;color:#e2e8f0 !important;">
+    <div role="row" style="display:grid;grid-template-columns:minmax(195px,38%) minmax(0,1fr);background-color:#173047 !important;border-bottom:1px solid #36546a;">
+      <div role="columnheader" style="padding:12px 15px;border-right:1px solid #36546a;color:#65f0ff !important;background-color:#173047 !important;font-weight:700;">Command</div>
+      <div role="columnheader" style="padding:12px 15px;color:#65f0ff !important;background-color:#173047 !important;font-weight:700;">What it does</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(195px,38%) minmax(0,1fr);width:100%;background-color:#101827 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="padding:11px 15px;border-right:1px solid #36546a;min-width:0;overflow-wrap:anywhere;background-color:transparent !important;color:#60e8f5 !important;font:500 .86rem/1.55 Consolas,Monaco,monospace;">cp file3.py ~/Desktop/copy.py</div>
+      <div role="cell" style="padding:11px 15px;min-width:0;background-color:transparent !important;color:#e1edf6 !important;line-height:1.55;">Copies a file to a specific destination path and filename, if that Desktop directory exists.</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(195px,38%) minmax(0,1fr);width:100%;background-color:#142236 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="padding:11px 15px;border-right:1px solid #36546a;min-width:0;overflow-wrap:anywhere;background-color:transparent !important;color:#60e8f5 !important;font:500 .86rem/1.55 Consolas,Monaco,monospace;">ifconfig</div>
+      <div role="cell" style="padding:11px 15px;min-width:0;background-color:transparent !important;color:#e1edf6 !important;line-height:1.55;">Displays network interfaces and addressing information when net-tools is installed and available in PATH.</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(195px,38%) minmax(0,1fr);width:100%;background-color:#101827 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="padding:11px 15px;border-right:1px solid #36546a;min-width:0;overflow-wrap:anywhere;background-color:transparent !important;color:#60e8f5 !important;font:500 .86rem/1.55 Consolas,Monaco,monospace;">ip -brief address</div>
+      <div role="cell" style="padding:11px 15px;min-width:0;background-color:transparent !important;color:#e1edf6 !important;line-height:1.55;">Modern alternative for reviewing local IP addresses assigned to interfaces.</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(195px,38%) minmax(0,1fr);width:100%;background-color:#142236 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="padding:11px 15px;border-right:1px solid #36546a;min-width:0;overflow-wrap:anywhere;background-color:transparent !important;color:#60e8f5 !important;font:500 .86rem/1.55 Consolas,Monaco,monospace;">ip link show</div>
+      <div role="cell" style="padding:11px 15px;min-width:0;background-color:transparent !important;color:#e1edf6 !important;line-height:1.55;">Displays interfaces, link state, and hardware (MAC) addresses.</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(195px,38%) minmax(0,1fr);width:100%;background-color:#101827 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="padding:11px 15px;border-right:1px solid #36546a;min-width:0;overflow-wrap:anywhere;background-color:transparent !important;color:#60e8f5 !important;font:500 .86rem/1.55 Consolas,Monaco,monospace;">ip route</div>
+      <div role="cell" style="padding:11px 15px;min-width:0;background-color:transparent !important;color:#e1edf6 !important;line-height:1.55;">Shows the routing table, including the default gateway if configured.</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(195px,38%) minmax(0,1fr);width:100%;background-color:#142236 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="padding:11px 15px;border-right:1px solid #36546a;min-width:0;overflow-wrap:anywhere;background-color:transparent !important;color:#60e8f5 !important;font:500 .86rem/1.55 Consolas,Monaco,monospace;">whoami</div>
+      <div role="cell" style="padding:11px 15px;min-width:0;background-color:transparent !important;color:#e1edf6 !important;line-height:1.55;">Reports the effective username for the current shell.</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(195px,38%) minmax(0,1fr);width:100%;background-color:#101827 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="padding:11px 15px;border-right:1px solid #36546a;min-width:0;overflow-wrap:anywhere;background-color:transparent !important;color:#60e8f5 !important;font:500 .86rem/1.55 Consolas,Monaco,monospace;">sudo &lt;command&gt;</div>
+      <div role="cell" style="padding:11px 15px;min-width:0;background-color:transparent !important;color:#e1edf6 !important;line-height:1.55;">Runs a specific permitted command with elevated privileges.</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(195px,38%) minmax(0,1fr);width:100%;background-color:#142236 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="padding:11px 15px;border-right:1px solid #36546a;min-width:0;overflow-wrap:anywhere;background-color:transparent !important;color:#60e8f5 !important;font:500 .86rem/1.55 Consolas,Monaco,monospace;">sudo -i</div>
+      <div role="cell" style="padding:11px 15px;min-width:0;background-color:transparent !important;color:#e1edf6 !important;line-height:1.55;">Starts a root login shell for authorized administration; exit as soon as finished.</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(195px,38%) minmax(0,1fr);width:100%;background-color:#101827 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="padding:11px 15px;border-right:1px solid #36546a;min-width:0;overflow-wrap:anywhere;background-color:transparent !important;color:#60e8f5 !important;font:500 .86rem/1.55 Consolas,Monaco,monospace;">exit</div>
+      <div role="cell" style="padding:11px 15px;min-width:0;background-color:transparent !important;color:#e1edf6 !important;line-height:1.55;">Leaves the current shell and returns to the prior shell or session.</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(195px,38%) minmax(0,1fr);width:100%;background-color:#142236 !important;">
+      <div role="cell" style="padding:11px 15px;border-right:1px solid #36546a;min-width:0;overflow-wrap:anywhere;background-color:transparent !important;color:#60e8f5 !important;font:500 .86rem/1.55 Consolas,Monaco,monospace;">ls -l filename</div>
+      <div role="cell" style="padding:11px 15px;min-width:0;background-color:transparent !important;color:#e1edf6 !important;line-height:1.55;">Shows file ownership and permissions for troubleshooting access.</div>
+    </div>
+  </div>
+</div>
+
+### Example: Copying a Script and Checking the Network
+
+These examples summarize the demonstrated concepts and add current Kali-friendly alternatives. **They have not been independently executed or verified in this project's VM.** The copy example assumes `file3.py` exists in the current directory and a `~/Desktop` folder exists.
+
+<div class="a1-terminal-demo" style="margin:1rem 0 1.5rem;background-color:#0d1828 !important;border:1px solid #366178;border-radius:10px;overflow:hidden;">
+  <div style="background-color:#173047 !important;color:#83ebf5 !important;padding:10px 16px;border-bottom:1px solid #366178;font-size:.75rem;letter-spacing:.09em;font-weight:700;">TERMINAL / ILLUSTRATIVE PRACTICE — NOT VERIFIED LAB OUTPUT</div>
+  <pre style="display:block;box-sizing:border-box;max-width:100%;overflow-x:auto;background-color:#0d1828 !important;color:#d7f7ff !important;border:0 !important;box-shadow:none !important;margin:0 !important;padding:18px 20px !important;font:500 .91rem/1.7 Consolas,Monaco,monospace !important;white-space:pre !important;"><code style="background-color:transparent !important;color:#d7f7ff !important;border:0 !important;padding:0 !important;font:inherit !important;"># If working inside the folder holding file3.py:
+pwd
+ls -ld "$HOME/Desktop"
+cp file3.py "$HOME/Desktop/copy.py"
+ls -l "$HOME/Desktop/copy.py"
+
+# Read-only network and identity checks:
+ip -brief address
+ip link show
+ip route
+whoami</code></pre>
+</div>
+
+### Technical Corrections and Troubleshooting
+
+**1. `ifconfig` is not inherently a root-only command.** Simply viewing interface configuration usually does not require `sudo`. If `ifconfig` returns *command not found*, the likely causes include the legacy `net-tools` package not being installed or the executable not being in the user's `PATH`. Using `sudo` can sometimes change the search path, but it does not solve a genuinely missing program. On modern Kali, `ip -brief address`, `ip link show`, and `ip route` are preferable for everyday network inspection.
+
+**2. `sudo` is not the answer to every error.** *Command not found* and *permission denied* mean different things. Troubleshoot the error before escalating. A root shell is started with `sudo -i` (or another explicitly supported shell command), **not** by repeating `sudo sudo`.
+
+**3. File editing depends on ownership and permissions.** Creating a *new* file using `sudo touch` commonly makes it root-owned; that is different from editing an existing file. Inspect permissions with `ls -l`. Use elevation only where required, and avoid casually producing root-owned files in the everyday working directory.
+
+**4. Network identifiers are useful but not infallible.** The transcript's explanation of IP versus MAC addresses is a beginner-level analogy. IP addresses identify network-layer endpoints, while MAC addresses identify link-layer interfaces; both can change depending on the environment.
+
+### Security Takeaway
+
+**Understand the environment before changing it.** For effective troubleshooting and penetration-testing lab work, first identify the correct file paths, network interfaces, IP configuration, and current user privileges. Prefer read-only diagnostic commands, use administrative access sparingly, and avoid sharing real hostnames, private IP details, or hardware addresses in public screenshots when unnecessary.
+
+### Evidence and Follow-Up
+
+- **Learning evidence:** Section 3 completed on Udemy; this lesson's instructor transcript has been reviewed.
+- **Hands-on evidence:** No output from the A1Gh0st VM confirming the lesson's network or permissions commands has been submitted.
+- **Next validation:** Execute safe read-only checks in Kali, record sanitized output for `ip -brief address`, `ip route`, `whoami`, and `ls -l`, and confirm which network adapter VirtualBox is configured to use.
+
 ## Reflection
 
-Getting Kali Linux running inside VirtualBox establishes the foundation for an isolated training environment. The terminal-navigation and file-management lessons introduce how to move through the filesystem, create or edit files, organize directories, and run a simple Python script. The next step is to verify these commands directly in the VM and document actual results, including safe handling of commands that delete files.
+Getting Kali Linux running inside VirtualBox establishes the foundation for an isolated training environment. The three documented Linux Operating System lessons now cover terminal navigation, file and directory operations, and introductory network diagnostics and Linux privileges. The important next step is to verify commands directly in Kali, distinguish configuration problems from permissions errors, and document sanitized command output rather than relying only on course demonstrations.
 
 ---
 
