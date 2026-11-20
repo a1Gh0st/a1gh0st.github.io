@@ -54,7 +54,7 @@ This virtual lab is separate from the [Linux Home Lab](/projects/linux-home-lab/
       <span class="a1-status" style="background:#143a38;color:#86f1d4;border-color:#297e79;">Documented</span>
     </div>
     <h3>Kali Setup &amp; Terminal Basics</h3>
-    <p>Confirmed the Kali desktop is running in VirtualBox and documented the completed Udemy lesson on navigating the Linux filesystem with terminal commands. Udemy progress: Section 3 of 25, Linux Operating System, completed (5/5 items). Includes transcript-based notes for navigating Linux and creating, editing, moving, and copying files and directories. Independent hands-on results remain to be verified.</p>
+    <p>Confirmed the Kali desktop is running in VirtualBox and documented the completed Udemy lesson on navigating the Linux filesystem with terminal commands. Udemy progress: Section 3 of 25, Linux Operating System, completed (5/5 items). Includes transcript-based notes for all three Section 3 lessons: Linux navigation, file and directory management, network commands, and sudo privileges. Independent hands-on results remain to be verified.</p>
     <div class="a1-tags">
       <span>VirtualBox</span><span>Kali Linux</span><span>Initial Setup</span>
     </div>
