@@ -83,16 +83,46 @@ Learn to navigate the Kali Linux filesystem through the **terminal** instead of 
 
 ### Commands Covered
 
-| Command | What it does |
-|:--|:--|
-| `pwd` | Prints the current working directory |
-| `ls` | Lists visible entries in the current directory |
-| `cd Documents` | Changes into a `Documents` folder relative to the current directory |
-| `cd ..` | Moves up one directory level |
-| `cd` | Returns to the current user's home directory |
-| `cd /` | Moves directly to the filesystem root |
-| `cd /etc` | Moves directly into the system's `/etc` directory |
-| `cd ~/Desktop` | Moves directly to the current user's Desktop folder if it exists |
+<div class="a1-command-grid" style="overflow-x:auto;max-width:100%;border:1px solid #36546a;border-radius:10px;margin:1rem 0 1.5rem;background-color:#101827 !important;">
+  <div role="table" aria-label="Linux terminal commands covered in the lesson" style="width:100%;min-width:480px;background-color:#101827 !important;color:#e2e8f0 !important;">
+    <div role="row" style="display:grid;grid-template-columns:minmax(150px,30%) minmax(0,1fr);width:100%;background-color:#173047 !important;border-bottom:1px solid #36546a;">
+      <div role="columnheader" style="padding:12px 15px;border-right:1px solid #36546a;background-color:#173047 !important;color:#65f0ff !important;font-weight:700;">Command</div>
+      <div role="columnheader" style="padding:12px 15px;background-color:#173047 !important;color:#65f0ff !important;font-weight:700;">What it does</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(150px,30%) minmax(0,1fr);width:100%;background-color:#101827 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="padding:11px 15px;border-right:1px solid #36546a;background-color:transparent !important;color:#60e8f5 !important;font-family:Consolas,Monaco,monospace;font-size:.91rem;overflow-wrap:anywhere;">pwd</div>
+      <div role="cell" style="padding:11px 15px;background-color:transparent !important;color:#e1edf6 !important;line-height:1.55;">Prints the current working directory</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(150px,30%) minmax(0,1fr);width:100%;background-color:#142236 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="padding:11px 15px;border-right:1px solid #36546a;background-color:transparent !important;color:#60e8f5 !important;font-family:Consolas,Monaco,monospace;font-size:.91rem;overflow-wrap:anywhere;">ls</div>
+      <div role="cell" style="padding:11px 15px;background-color:transparent !important;color:#e1edf6 !important;line-height:1.55;">Lists visible entries in the current directory</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(150px,30%) minmax(0,1fr);width:100%;background-color:#101827 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="padding:11px 15px;border-right:1px solid #36546a;background-color:transparent !important;color:#60e8f5 !important;font-family:Consolas,Monaco,monospace;font-size:.91rem;overflow-wrap:anywhere;">cd Documents</div>
+      <div role="cell" style="padding:11px 15px;background-color:transparent !important;color:#e1edf6 !important;line-height:1.55;">Changes into a Documents folder relative to the current directory</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(150px,30%) minmax(0,1fr);width:100%;background-color:#142236 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="padding:11px 15px;border-right:1px solid #36546a;background-color:transparent !important;color:#60e8f5 !important;font-family:Consolas,Monaco,monospace;font-size:.91rem;overflow-wrap:anywhere;">cd ..</div>
+      <div role="cell" style="padding:11px 15px;background-color:transparent !important;color:#e1edf6 !important;line-height:1.55;">Moves up one directory level</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(150px,30%) minmax(0,1fr);width:100%;background-color:#101827 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="padding:11px 15px;border-right:1px solid #36546a;background-color:transparent !important;color:#60e8f5 !important;font-family:Consolas,Monaco,monospace;font-size:.91rem;overflow-wrap:anywhere;">cd</div>
+      <div role="cell" style="padding:11px 15px;background-color:transparent !important;color:#e1edf6 !important;line-height:1.55;">Returns to the current user's home directory</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(150px,30%) minmax(0,1fr);width:100%;background-color:#142236 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="padding:11px 15px;border-right:1px solid #36546a;background-color:transparent !important;color:#60e8f5 !important;font-family:Consolas,Monaco,monospace;font-size:.91rem;overflow-wrap:anywhere;">cd /</div>
+      <div role="cell" style="padding:11px 15px;background-color:transparent !important;color:#e1edf6 !important;line-height:1.55;">Moves directly to the filesystem root</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(150px,30%) minmax(0,1fr);width:100%;background-color:#101827 !important;border-bottom:1px solid #36546a;">
+      <div role="cell" style="padding:11px 15px;border-right:1px solid #36546a;background-color:transparent !important;color:#60e8f5 !important;font-family:Consolas,Monaco,monospace;font-size:.91rem;overflow-wrap:anywhere;">cd /etc</div>
+      <div role="cell" style="padding:11px 15px;background-color:transparent !important;color:#e1edf6 !important;line-height:1.55;">Moves directly into the system's /etc directory</div>
+    </div>
+    <div role="row" style="display:grid;grid-template-columns:minmax(150px,30%) minmax(0,1fr);width:100%;background-color:#142236 !important;">
+      <div role="cell" style="padding:11px 15px;border-right:1px solid #36546a;background-color:transparent !important;color:#60e8f5 !important;font-family:Consolas,Monaco,monospace;font-size:.91rem;overflow-wrap:anywhere;">cd ~/Desktop</div>
+      <div role="cell" style="padding:11px 15px;background-color:transparent !important;color:#e1edf6 !important;line-height:1.55;">Moves directly to the current user's Desktop folder if it exists</div>
+    </div>
+  </div>
+</div>
 
 **Important distinction:** At `/`, `cd ..` stays at `/` because there is no parent directory. By contrast, running `cd` with no arguments returns to the user's home directory. Linux paths are usually case-sensitive, so `Desktop` and `desktop` may not refer to the same directory.
 
@@ -100,8 +130,9 @@ Learn to navigate the Kali Linux filesystem through the **terminal** instead of 
 
 This is an **illustrative practice sequence based on the lesson**, not recorded output from the A1Gh0st VM:
 
-```bash
-pwd
+<div class="a1-terminal-demo" style="margin:1rem 0 1.5rem;background-color:#0d1828 !important;border:1px solid #366178;border-radius:10px;overflow:hidden;box-shadow:0 4px 18px rgba(0,0,0,.13);">
+  <div style="background-color:#173047 !important;color:#83ebf5 !important;padding:10px 16px;border-bottom:1px solid #366178;font-size:.75rem;letter-spacing:.09em;font-weight:700;">TERMINAL / ILLUSTRATIVE PRACTICE</div>
+  <pre style="display:block;max-width:100%;box-sizing:border-box;overflow-x:auto;background-color:#0d1828 !important;color:#d7f7ff !important;border:0 !important;box-shadow:none !important;margin:0 !important;padding:18px 20px !important;font:500 .91rem/1.7 Consolas,Monaco,monospace !important;white-space:pre !important;"><code style="background-color:transparent !important;color:#d7f7ff !important;border:0 !important;padding:0 !important;font:inherit !important;">pwd
 ls
 cd /etc
 pwd
@@ -109,8 +140,8 @@ cd ..
 pwd
 cd ~/Desktop
 pwd
-ls
-```
+ls</code></pre>
+</div>
 
 The lesson also challenged students to travel from `/etc` back to the Desktop using terminal navigation alone. The instructor demonstrated a step-by-step route through `/`, `/home`, and the example account's home directory. A direct alternative is `cd ~/Desktop` when that folder exists.
 
