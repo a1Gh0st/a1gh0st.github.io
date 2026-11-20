@@ -48,15 +48,20 @@ The intended result is a reliable Linux system that supports repeatable experime
 
 ## Hardware Inventory
 
-| Component | Current record |
-|---|---|
-| Case / chassis | Existing case available; detailed inspection pending |
-| Motherboard and CPU | Not yet verified |
-| RAM | Not yet verified |
-| Storage | Not yet verified |
-| Power supply and cooling | Not yet verified |
-| Network connectivity | Not yet verified |
-| Linux distribution | To be selected after hardware assessment |
+<table class="a1-hardware-inventory">
+  <thead>
+    <tr><th scope="col">Component</th><th scope="col">Current record</th></tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row">Case / chassis</th><td>Existing case available; detailed inspection pending</td></tr>
+    <tr><th scope="row">Motherboard and CPU</th><td>Not yet verified</td></tr>
+    <tr><th scope="row">RAM</th><td>Not yet verified</td></tr>
+    <tr><th scope="row">Storage</th><td>Not yet verified</td></tr>
+    <tr><th scope="row">Power supply and cooling</th><td>Not yet verified</td></tr>
+    <tr><th scope="row">Network connectivity</th><td>Not yet verified</td></tr>
+    <tr><th scope="row">Linux distribution</th><td>To be selected after hardware assessment</td></tr>
+  </tbody>
+</table>
 
 *This inventory will be replaced with verified component names, specifications, and photos as the rebuild progresses.*
 
