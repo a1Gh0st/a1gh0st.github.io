@@ -18,7 +18,7 @@ permalink: /projects/
 
 ---
 
-## My Cybersecurity Projects
+## Cybersecurity Projects
 
 Welcome to my cybersecurity project portfolio.
 
