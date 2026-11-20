@@ -3,7 +3,15 @@ layout: default
 ---
 <link rel="stylesheet" href="/assets/main.css">
 
-**[Home](/) | [About A1Gh0st](/about/) | [Projects](/projects/) | [Connect](#connect-with-a1gh0st)**
+<nav style="background-color:#101827; padding:15px; border:1px solid #00e5ff; border-radius:6px;">
+  <a href="/" style="color:#00e5ff; background:transparent; text-decoration:none;">Home</a>
+  &nbsp; | &nbsp;
+  <a href="/about/" style="color:#00e5ff; background:transparent; text-decoration:none;">About A1Gh0st</a>
+  &nbsp; | &nbsp;
+  <a href="/projects/" style="color:#00e5ff; background:transparent; text-decoration:none;">Projects</a>
+  &nbsp; | &nbsp;
+  <a href="#connect-with-a1gh0st" style="color:#00e5ff; background:transparent; text-decoration:none;">Connect</a>
+</nav>
 
 <div style="text-align: center;">
   <img src="/986E615A-98FE-420B-9E24-6C757C8A68EC (1).PNG" alt="A1Gh0st Cybersecurity Mascot" width="300">
@@ -42,6 +50,6 @@ Here you'll find:
 
 ## Connect With A1Gh0st
 
-Follow **[A1Gh0st on X](https://x.com/A1Gh0st)** for cybersecurity updates, lab notes, and technical progress.
+Follow **[A1Gh0st on X](https://x.com/Xa1gh0st)** for cybersecurity updates, lab notes, and technical progress.
 
 *Learning. Practicing. Documenting.*
