@@ -23,7 +23,7 @@ permalink: /projects/
     <h1>Projects</h1>
     <p class="a1-lead">An evolving collection of independent builds, security experiments, and practical tools. Each entry records the work behind the result, including what is still unfinished.</p>
     <div class="a1-hero-meta">
-      <span><strong>01</strong> project plan documented</span>
+      <span><strong>02</strong> documented project entries</span>
       <span><strong>Clear status</strong> for every entry</span>
       <span><strong>Evidence</strong> before claims</span>
     </div>
@@ -33,6 +33,19 @@ permalink: /projects/
   <p class="a1-section-intro">Work is listed according to its actual progress. Planned work is not presented as a completed project.</p>
 
   <div class="a1-project-grid">
+    <article class="a1-project-card a1-primary-card">
+      <div class="a1-card-top">
+        <span class="a1-project-id">PROJECT 002</span>
+        <span class="a1-status" style="background:#143a38;color:#86f1d4;border-color:#297e79;">In Progress</span>
+      </div>
+      <div class="a1-project-icon" aria-hidden="true">&gt;_</div>
+      <h3>Kali Linux VirtualBox Lab</h3>
+      <p>Set up a Kali Linux virtual machine using Oracle VirtualBox. Installation and boot to the graphical desktop are confirmed; networking, updates, snapshots, and tooling are next.</p>
+      <div class="a1-tags">
+        <span>Kali Linux</span><span>VirtualBox</span><span>Virtualization</span><span>Networking</span>
+      </div>
+      <a class="a1-project-link" href="/projects/kali-virtualbox-lab/">View project log →</a>
+    </article>
     <article class="a1-project-card a1-primary-card">
       <div class="a1-card-top">
         <span class="a1-project-id">PROJECT 001</span>
