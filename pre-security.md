@@ -48,7 +48,7 @@ The report combines notes from guided lessons and practice exercises with additi
 The complete 21-page PDF is embedded below for reading. It includes expanded technical explanations, examples, key terminology, review questions, and an answer key.
 
 <iframe
-  src="/A1Gh0st_TryHackMe_PreSecurity_Study_Guide_REVISED.pdf"
+  src="/A1Gh0st_TryHackMe_PreSecurity_Report.pdf"
   width="100%"
   height="750"
   style="border:1px solid #00e5ff; border-radius:8px;"
@@ -56,12 +56,12 @@ The complete 21-page PDF is embedded below for reading. It includes expanded tec
 </iframe>
 
 <p>
-  <a href="/A1Gh0st_TryHackMe_PreSecurity_Study_Guide_REVISED.pdf" target="_blank" rel="noopener noreferrer">
+  <a href="/A1Gh0st_TryHackMe_PreSecurity_Report.pdf" target="_blank" rel="noopener noreferrer">
     Open Full Study Guide in New Tab
   </a>
 </p>
 
-**[Download the Complete Pre-Security Study Guide (PDF)](/A1Gh0st_TryHackMe_PreSecurity_Study_Guide_REVISED.pdf)**
+**[Download the Complete Pre-Security Study Guide (PDF)](/A1Gh0st_TryHackMe_PreSecurity_Report.pdf)**
 
 ---
 
