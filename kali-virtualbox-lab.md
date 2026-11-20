@@ -143,6 +143,23 @@ This VirtualBox project is separate from the [Linux Home Lab](/projects/linux-ho
   </div>
 </div>
 
+## Post-Installation Checklist
+
+The following checklist adapts recommendations from the [ceos3c Kali Linux post-installation guide](https://www.ceos3c.com/security/top-things-after-installing-kali-linux/) to this VirtualBox learning environment. **All items below are pending verification**, not completed achievements.
+
+- [ ] **Record the baseline:** Capture the Kali version, kernel, allocated virtual CPU/RAM, storage, and VirtualBox network mode.
+- [ ] **Verify networking:** Confirm IP addressing, internet access, and DNS resolution before downloading updates.
+- [ ] **Secure the login:** If the installation uses the default `kali` credentials, replace the password with a unique one using `passwd`. Keep the account non-root and use `sudo` for administrative work.
+- [ ] **Create an initial VM snapshot:** Save a recovery point before making major configuration changes.
+- [ ] **Update the operating system:** Refresh package lists and perform a full system upgrade, reviewing prompts and any errors.
+- [ ] **Check Kali configuration:** Review `kali-tweaks` and installed tools, adding only settings or packages relevant to the lab.
+- [ ] **Create an updated baseline snapshot:** Once the system is stable, capture a clearly named snapshot.
+- [ ] **Choose optional tooling:** A code editor and vulnerability management software can be evaluated later. Avoid installing everything just because it appears on a checklist.
+
+**VirtualBox security note:** Shared Clipboard, Drag and Drop, shared folders, and bridged networking increase interaction between the guest and host or physical network. Enable them only when needed and understand the exposure. Keep intentionally vulnerable targets in an appropriately isolated lab network.
+
+**VPN note:** A VPN can be useful for specific authorized training platforms, but it is not required for a basic Kali installation and does not grant permission to test third-party systems.
+
 ## Verification Plan
 
 The following commands are examples for upcoming verification. **They have not yet been recorded as executed or successful.**
