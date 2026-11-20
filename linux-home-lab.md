@@ -48,45 +48,41 @@ The intended result is a reliable Linux system that supports repeatable experime
 
 ## Hardware Inventory
 
-<div style="overflow-x:auto;background-color:#101827 !important;border:1px solid #2a5368;border-radius:10px;margin:1rem 0 1.5rem;">
-<table class="a1-hardware-inventory" style="width:100%;margin:0;border:0;border-collapse:collapse;background-color:#101827 !important;color:#e2e8f0 !important;">
-  <thead style="background-color:#173047 !important;">
-    <tr style="background-color:#173047 !important;">
-    <th scope="col" style="background-color:#173047 !important;color:#00e5ff !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Component</th>
-    <th scope="col" style="background-color:#173047 !important;color:#00e5ff !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Current record</th>
-    </tr>
-  </thead>
-  <tbody style="background-color:#101827 !important;">
-    <tr style="background-color:#101827 !important;">
-    <th scope="row" style="background-color:#101827 !important;color:#c5e9f5 !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Case / chassis</th>
-    <td style="background-color:#101827 !important;color:#e2e8f0 !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Existing case available; detailed inspection pending</td>
-    </tr>
-    <tr style="background-color:#142236 !important;">
-    <th scope="row" style="background-color:#142236 !important;color:#c5e9f5 !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Motherboard and CPU</th>
-    <td style="background-color:#142236 !important;color:#e2e8f0 !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Not yet verified</td>
-    </tr>
-    <tr style="background-color:#101827 !important;">
-    <th scope="row" style="background-color:#101827 !important;color:#c5e9f5 !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">RAM</th>
-    <td style="background-color:#101827 !important;color:#e2e8f0 !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Not yet verified</td>
-    </tr>
-    <tr style="background-color:#142236 !important;">
-    <th scope="row" style="background-color:#142236 !important;color:#c5e9f5 !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Storage</th>
-    <td style="background-color:#142236 !important;color:#e2e8f0 !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Not yet verified</td>
-    </tr>
-    <tr style="background-color:#101827 !important;">
-    <th scope="row" style="background-color:#101827 !important;color:#c5e9f5 !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Power supply and cooling</th>
-    <td style="background-color:#101827 !important;color:#e2e8f0 !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Not yet verified</td>
-    </tr>
-    <tr style="background-color:#142236 !important;">
-    <th scope="row" style="background-color:#142236 !important;color:#c5e9f5 !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Network connectivity</th>
-    <td style="background-color:#142236 !important;color:#e2e8f0 !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Not yet verified</td>
-    </tr>
-    <tr style="background-color:#101827 !important;">
-    <th scope="row" style="background-color:#101827 !important;color:#c5e9f5 !important;padding:12px 15px !important;border:0 !important;text-align:left;vertical-align:top;">Linux distribution</th>
-    <td style="background-color:#101827 !important;color:#e2e8f0 !important;padding:12px 15px !important;border:0 !important;text-align:left;vertical-align:top;">To be selected after hardware assessment</td>
-    </tr>
-  </tbody>
-</table>
+<div style="max-width:100%;overflow-x:auto;margin:1rem 0 1.5rem;border:1px solid #35536a;border-radius:10px;background-color:#101827;">
+<div role="table" aria-label="Hardware Inventory" style="display:block;width:100%;min-width:510px;box-sizing:border-box;background-color:#101827;color:#e2e8f0;">
+  <div role="row" style="display:grid;grid-template-columns:minmax(185px, 34%) minmax(0, 1fr);width:100%;box-sizing:border-box;background-color:#173047;border-bottom:1px solid #35536a;">
+    <div role="columnheader" style="box-sizing:border-box;min-width:0;padding:13px 16px;text-align:left;line-height:1.45;border-right:1px solid #35536a;color:#00e5ff;font-weight:700;">Component</div>
+    <div role="columnheader" style="box-sizing:border-box;min-width:0;padding:13px 16px;text-align:left;line-height:1.45;color:#00e5ff;font-weight:700;">Current record</div>
+  </div>
+  <div role="row" style="display:grid;grid-template-columns:minmax(185px, 34%) minmax(0, 1fr);width:100%;box-sizing:border-box;background-color:#101827;border-bottom:1px solid #35536a;">
+    <div role="rowheader" style="box-sizing:border-box;min-width:0;padding:13px 16px;text-align:left;line-height:1.45;border-right:1px solid #35536a;color:#c5e9f5;font-weight:700;">Case / chassis</div>
+    <div role="cell" style="box-sizing:border-box;min-width:0;padding:13px 16px;text-align:left;line-height:1.45;color:#e2e8f0;">Existing case available; detailed inspection pending</div>
+  </div>
+  <div role="row" style="display:grid;grid-template-columns:minmax(185px, 34%) minmax(0, 1fr);width:100%;box-sizing:border-box;background-color:#142236;border-bottom:1px solid #35536a;">
+    <div role="rowheader" style="box-sizing:border-box;min-width:0;padding:13px 16px;text-align:left;line-height:1.45;border-right:1px solid #35536a;color:#c5e9f5;font-weight:700;">Motherboard and CPU</div>
+    <div role="cell" style="box-sizing:border-box;min-width:0;padding:13px 16px;text-align:left;line-height:1.45;color:#e2e8f0;">Not yet verified</div>
+  </div>
+  <div role="row" style="display:grid;grid-template-columns:minmax(185px, 34%) minmax(0, 1fr);width:100%;box-sizing:border-box;background-color:#101827;border-bottom:1px solid #35536a;">
+    <div role="rowheader" style="box-sizing:border-box;min-width:0;padding:13px 16px;text-align:left;line-height:1.45;border-right:1px solid #35536a;color:#c5e9f5;font-weight:700;">RAM</div>
+    <div role="cell" style="box-sizing:border-box;min-width:0;padding:13px 16px;text-align:left;line-height:1.45;color:#e2e8f0;">Not yet verified</div>
+  </div>
+  <div role="row" style="display:grid;grid-template-columns:minmax(185px, 34%) minmax(0, 1fr);width:100%;box-sizing:border-box;background-color:#142236;border-bottom:1px solid #35536a;">
+    <div role="rowheader" style="box-sizing:border-box;min-width:0;padding:13px 16px;text-align:left;line-height:1.45;border-right:1px solid #35536a;color:#c5e9f5;font-weight:700;">Storage</div>
+    <div role="cell" style="box-sizing:border-box;min-width:0;padding:13px 16px;text-align:left;line-height:1.45;color:#e2e8f0;">Not yet verified</div>
+  </div>
+  <div role="row" style="display:grid;grid-template-columns:minmax(185px, 34%) minmax(0, 1fr);width:100%;box-sizing:border-box;background-color:#101827;border-bottom:1px solid #35536a;">
+    <div role="rowheader" style="box-sizing:border-box;min-width:0;padding:13px 16px;text-align:left;line-height:1.45;border-right:1px solid #35536a;color:#c5e9f5;font-weight:700;">Power supply and cooling</div>
+    <div role="cell" style="box-sizing:border-box;min-width:0;padding:13px 16px;text-align:left;line-height:1.45;color:#e2e8f0;">Not yet verified</div>
+  </div>
+  <div role="row" style="display:grid;grid-template-columns:minmax(185px, 34%) minmax(0, 1fr);width:100%;box-sizing:border-box;background-color:#142236;border-bottom:1px solid #35536a;">
+    <div role="rowheader" style="box-sizing:border-box;min-width:0;padding:13px 16px;text-align:left;line-height:1.45;border-right:1px solid #35536a;color:#c5e9f5;font-weight:700;">Network connectivity</div>
+    <div role="cell" style="box-sizing:border-box;min-width:0;padding:13px 16px;text-align:left;line-height:1.45;color:#e2e8f0;">Not yet verified</div>
+  </div>
+  <div role="row" style="display:grid;grid-template-columns:minmax(185px, 34%) minmax(0, 1fr);width:100%;box-sizing:border-box;background-color:#101827;">
+    <div role="rowheader" style="box-sizing:border-box;min-width:0;padding:13px 16px;text-align:left;line-height:1.45;border-right:1px solid #35536a;color:#c5e9f5;font-weight:700;">Linux distribution</div>
+    <div role="cell" style="box-sizing:border-box;min-width:0;padding:13px 16px;text-align:left;line-height:1.45;color:#e2e8f0;">To be selected after hardware assessment</div>
+  </div>
+</div>
 </div>
 
 *This inventory will be replaced with verified component names, specifications, and photos as the rebuild progresses.*
