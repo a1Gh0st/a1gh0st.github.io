@@ -46,6 +46,25 @@ and document my progress along the way.
 
 <div style="display:flex; flex-wrap:wrap; gap:20px; margin-top:20px;">
 
+  <a href="/thm-writeups/pre-security/"
+     style="display:block; width:240px; max-width:100%; padding:20px;
+     background:#101827; border:1px solid #00e5ff;
+     border-radius:10px; text-decoration:none;">
+
+    <h3 style="color:#00e5ff; margin-top:0;">Pre-Security</h3>
+
+    <p style="color:#e2e8f0;">
+      Completed seven-module learning path covering computer fundamentals,
+      operating systems, networking, web technologies, and security.
+      Includes a comprehensive 21-page study guide.
+    </p>
+
+    <p style="color:#00e5ff;">View Write-up →</p>
+
+  </a>
+
+
+
   <a href="/thm-writeups/bricks-heist/"
      style="display:block; width:240px; max-width:100%; padding:20px;
      background:#101827; border:1px solid #00e5ff;
