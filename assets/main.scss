@@ -107,8 +107,8 @@ p:has(> strong > a) a:hover {
 .a1-hero-meta strong { color: #f0faff; }
 .a1-section-intro { margin-top: 0.1rem; color: var(--project-muted); }
 .a1-project-grid, .a1-roadmap-grid { display: grid; gap: 1rem; margin: 1.1rem 0 2rem; }
-.a1-project-grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); }
-.a1-roadmap-grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr)); }
+.a1-project-grid { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.a1-roadmap-grid { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
 .a1-project-card, .a1-roadmap-card {
   background: #101827; border: 1px solid var(--project-border);
   border-radius: 12px; padding: 1.4rem;
@@ -130,7 +130,7 @@ p:has(> strong > a) a:hover {
 .a1-projects a.a1-project-link:hover { color: #fff; text-decoration: underline; }
 .a1-documentation { margin: 2.4rem 0; padding: 1.4rem; border: 1px solid #223c4b; background: #0e1927; border-radius: 12px; }
 .a1-documentation h2 { margin-top: 0; }
-.a1-method-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,190px),1fr)); gap: 1rem; }
+.a1-method-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap: 1rem; }
 .a1-method-grid div { padding: 0.9rem; background: #15273a; border: 1px solid #253e52; border-radius: 8px; }
 .a1-method-grid strong { color: #71e7f8; }
 .a1-method-grid p { margin: 0.45rem 0 0; font-size: 0.9rem; color: #b3c5d4; }
@@ -149,6 +149,7 @@ p:has(> strong > a) a:hover {
 .a1-milestone small { margin-top: 0.2rem; color: #afc3d1; }
 .a1-milestone em { font-size: 0.72rem; font-style: normal; color: #96ddea; white-space: nowrap; }
 @media (max-width: 550px) {
+  .a1-project-grid, .a1-roadmap-grid, .a1-method-grid { grid-template-columns: minmax(0, 1fr); }
   .a1-project-hero { padding: 1.15rem; }
   .a1-project-card, .a1-roadmap-card { padding: 1.1rem; }
   .a1-milestone { flex-wrap: wrap; }
