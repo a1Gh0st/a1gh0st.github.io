@@ -48,20 +48,46 @@ The intended result is a reliable Linux system that supports repeatable experime
 
 ## Hardware Inventory
 
-<table class="a1-hardware-inventory">
-  <thead>
-    <tr><th scope="col">Component</th><th scope="col">Current record</th></tr>
+<div style="overflow-x:auto;background-color:#101827 !important;border:1px solid #2a5368;border-radius:10px;margin:1rem 0 1.5rem;">
+<table class="a1-hardware-inventory" style="width:100%;margin:0;border:0;border-collapse:collapse;background-color:#101827 !important;color:#e2e8f0 !important;">
+  <thead style="background-color:#173047 !important;">
+    <tr style="background-color:#173047 !important;">
+    <th scope="col" style="background-color:#173047 !important;color:#00e5ff !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Component</th>
+    <th scope="col" style="background-color:#173047 !important;color:#00e5ff !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Current record</th>
+    </tr>
   </thead>
-  <tbody>
-    <tr><th scope="row">Case / chassis</th><td>Existing case available; detailed inspection pending</td></tr>
-    <tr><th scope="row">Motherboard and CPU</th><td>Not yet verified</td></tr>
-    <tr><th scope="row">RAM</th><td>Not yet verified</td></tr>
-    <tr><th scope="row">Storage</th><td>Not yet verified</td></tr>
-    <tr><th scope="row">Power supply and cooling</th><td>Not yet verified</td></tr>
-    <tr><th scope="row">Network connectivity</th><td>Not yet verified</td></tr>
-    <tr><th scope="row">Linux distribution</th><td>To be selected after hardware assessment</td></tr>
+  <tbody style="background-color:#101827 !important;">
+    <tr style="background-color:#101827 !important;">
+    <th scope="row" style="background-color:#101827 !important;color:#c5e9f5 !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Case / chassis</th>
+    <td style="background-color:#101827 !important;color:#e2e8f0 !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Existing case available; detailed inspection pending</td>
+    </tr>
+    <tr style="background-color:#142236 !important;">
+    <th scope="row" style="background-color:#142236 !important;color:#c5e9f5 !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Motherboard and CPU</th>
+    <td style="background-color:#142236 !important;color:#e2e8f0 !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Not yet verified</td>
+    </tr>
+    <tr style="background-color:#101827 !important;">
+    <th scope="row" style="background-color:#101827 !important;color:#c5e9f5 !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">RAM</th>
+    <td style="background-color:#101827 !important;color:#e2e8f0 !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Not yet verified</td>
+    </tr>
+    <tr style="background-color:#142236 !important;">
+    <th scope="row" style="background-color:#142236 !important;color:#c5e9f5 !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Storage</th>
+    <td style="background-color:#142236 !important;color:#e2e8f0 !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Not yet verified</td>
+    </tr>
+    <tr style="background-color:#101827 !important;">
+    <th scope="row" style="background-color:#101827 !important;color:#c5e9f5 !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Power supply and cooling</th>
+    <td style="background-color:#101827 !important;color:#e2e8f0 !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Not yet verified</td>
+    </tr>
+    <tr style="background-color:#142236 !important;">
+    <th scope="row" style="background-color:#142236 !important;color:#c5e9f5 !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Network connectivity</th>
+    <td style="background-color:#142236 !important;color:#e2e8f0 !important;padding:12px 15px !important;border:0 !important;border-bottom:1px solid #2b4056 !important;text-align:left;vertical-align:top;">Not yet verified</td>
+    </tr>
+    <tr style="background-color:#101827 !important;">
+    <th scope="row" style="background-color:#101827 !important;color:#c5e9f5 !important;padding:12px 15px !important;border:0 !important;text-align:left;vertical-align:top;">Linux distribution</th>
+    <td style="background-color:#101827 !important;color:#e2e8f0 !important;padding:12px 15px !important;border:0 !important;text-align:left;vertical-align:top;">To be selected after hardware assessment</td>
+    </tr>
   </tbody>
 </table>
+</div>
 
 *This inventory will be replaced with verified component names, specifications, and photos as the rebuild progresses.*
 
