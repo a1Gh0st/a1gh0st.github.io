@@ -38,28 +38,6 @@ This portfolio is intentionally focused on **projects, findings, and demonstrate
 
 These are developing areas of technical focus, not claims of expertise or professional certification.
 
-## Featured Work
-
-### TryHackMe: Pre-Security
-
-Completed the seven-module Pre-Security learning path and produced a **21-page technical review** covering computer fundamentals, operating systems, networking, software, web technologies, and security principles.
-
-**[Read the Pre-Security write-up](/thm-writeups/pre-security/)**
-
-*Learning-path completion is separate from the paid SEC0 professional certification.*
-
-### TryHackMe: Bricks Heist
-
-Documented an authorized security lab involving WordPress vulnerability research, exploitation, post-exploitation investigation, and analysis of suspicious cryptocurrency-mining activity.
-
-**[Read the Bricks Heist investigation](/thm-writeups/bricks-heist/)**
-
-### More Projects
-
-Future additions will include independent scripts, system administration practice, Linux lab work, and security-focused experiments, with reproducible notes wherever practical.
-
-**[Explore the Projects page](/projects/)**
-
 ## Methodology
 
 **Learn. Practice. Document. Improve.**
