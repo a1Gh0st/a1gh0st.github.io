@@ -154,3 +154,49 @@ p:has(> strong > a) a:hover {
   .a1-project-card, .a1-roadmap-card { padding: 1.1rem; }
   .a1-milestone { flex-wrap: wrap; }
 }
+
+
+/* Hardware Inventory: match the A1Gh0st dark portfolio palette */
+table.a1-hardware-inventory {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 1rem 0 1.5rem;
+  background: #101827 !important;
+  color: #e2e8f0 !important;
+  border: 1px solid #2a5368;
+  border-radius: 10px;
+  overflow: hidden;
+}
+table.a1-hardware-inventory thead,
+table.a1-hardware-inventory thead tr,
+table.a1-hardware-inventory thead th {
+  background: #173047 !important;
+  color: #00e5ff !important;
+  border-color: #31576b !important;
+}
+table.a1-hardware-inventory tbody tr,
+table.a1-hardware-inventory tbody tr:nth-child(2n) {
+  background: #101827 !important;
+  color: #e2e8f0 !important;
+}
+table.a1-hardware-inventory tbody tr:nth-child(2n) {
+  background: #142236 !important;
+}
+table.a1-hardware-inventory th,
+table.a1-hardware-inventory td {
+  padding: 0.85rem 1rem;
+  border: 0 !important;
+  border-bottom: 1px solid #2b4056 !important;
+  color: #e2e8f0 !important;
+  background: transparent !important;
+  text-align: left;
+  vertical-align: top;
+}
+table.a1-hardware-inventory thead th { color: #00e5ff !important; }
+table.a1-hardware-inventory tbody th { font-weight: 600; color: #c5e9f5 !important; }
+table.a1-hardware-inventory tbody tr:last-child th,
+table.a1-hardware-inventory tbody tr:last-child td { border-bottom: 0 !important; }
+@media (max-width: 520px) {
+  table.a1-hardware-inventory th, table.a1-hardware-inventory td { padding: 0.65rem 0.55rem; font-size: 0.84rem; }
+}
