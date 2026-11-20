@@ -34,7 +34,7 @@ As of **November 20, 2026**, Oracle VirtualBox was installed, Kali Linux had bee
 
 The environment supports the hands-on portion of the **Complete Ethical Hacking Bootcamp** and provides a starting point for Linux administration, networking, and authorized security training.
 
-**Udemy course progress (November 20, 2026):** Currently studying **Section 3 of 25: Linux Operating System**. Sections 1 and 2 were reported complete. Section 3 is **in progress**, not completed. This course-level status is separate from the completed terminal-navigation lesson documented below.
+**Udemy course progress (November 20, 2026):** **Section 3 of 25: Linux Operating System — Complete (5/5 items, 37 minutes of listed course content).** Sections 1 and 2 were also reported complete. That makes **3 of 25 course sections completed**; this is a section count, not an estimate of total course runtime completed. The screenshot establishes course completion status, while independent terminal practice is documented separately.
 
 ## What Has Been Verified
 
@@ -47,6 +47,20 @@ The screenshot was shared for project documentation but has not been published t
 ## What Remains Unverified
 
 The current record does **not** establish the Kali version, virtual hardware allocation, network adapter mode, internet access, package updates, snapshots, or success with security tools. Those topics can be documented in future dated threads after testing.
+
+## Section 3 Completion Record
+
+**Section:** Linux Operating System  
+**Udemy completion evidence:** Screenshot showing **5/5 items** completed, with **37 minutes** listed for the section.  
+**Recorded status:** Complete.
+
+The visible lesson titles marked completed in the screenshot are:
+
+- **20. Navigating Through Linux System** (11 minutes)
+- **21. Creating Files & Managing Directories** (13 minutes)
+- **22. Network Commands & Sudo Privileges In Kali** (11 minutes)
+
+The screenshot displays three titled lessons and a total of five completed section items; the remaining two items are not identifiable from this image. The transcript supplied for **Navigating Through Linux System** supports the command explanations below. Detailed transcripts or independently captured practical results have not yet been supplied for the other two named lessons, so this entry does not invent their instructional content or claim hands-on verification.
 
 ## Udemy Lesson: Navigating the Linux Filesystem
 
