@@ -21,7 +21,6 @@ permalink: /projects/
   <section class="a1-project-hero">
     <p class="a1-kicker">A1GH0ST / TECHNICAL PORTFOLIO</p>
     <h1>Projects</h1>
-    <p class="a1-hero-line">Learn. Build. Verify. Document.</p>
     <p class="a1-lead">An evolving collection of independent builds, security experiments, and practical tools. Each entry records the work behind the result, including what is still unfinished.</p>
     <div class="a1-hero-meta">
       <span><strong>01</strong> project plan documented</span>
