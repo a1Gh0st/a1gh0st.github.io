@@ -200,3 +200,64 @@ table.a1-hardware-inventory tbody tr:last-child td { border-bottom: 0 !important
 @media (max-width: 520px) {
   table.a1-hardware-inventory th, table.a1-hardware-inventory td { padding: 0.65rem 0.55rem; font-size: 0.84rem; }
 }
+
+/* Dark-theme safeguard for GitHub Pages Markdown tables and code blocks. */
+/*
+  Jekyll/theme-generated Markdown tables and fenced code blocks can inherit
+  pale backgrounds and low-contrast text, even when the surrounding page is
+  dark. Use the custom dark command grid/terminal panel for new lab reports.
+  These rules are the fallback for legacy and future unstyled Markdown.
+*/
+.page-content table,
+.post-content table {
+  background-color: #101827 !important;
+  color: #e2e8f0 !important;
+  border-color: #35536a !important;
+}
+.page-content table th,
+.post-content table th {
+  background-color: #173047 !important;
+  color: #8ff5ff !important;
+  border-color: #35536a !important;
+}
+.page-content table tr,
+.post-content table tr,
+.page-content table tr:nth-child(odd),
+.post-content table tr:nth-child(odd) {
+  background-color: #101827 !important;
+  color: #e2e8f0 !important;
+}
+.page-content table tr:nth-child(even),
+.post-content table tr:nth-child(even) {
+  background-color: #142236 !important;
+}
+.page-content table td,
+.post-content table td {
+  background-color: transparent !important;
+  color: #e2e8f0 !important;
+  border-color: #35536a !important;
+}
+.page-content table td code,
+.post-content table td code {
+  background-color: #1e3348 !important;
+  color: #78efff !important;
+}
+.page-content .highlighter-rouge,
+.post-content .highlighter-rouge,
+.page-content .highlighter-rouge .highlight,
+.post-content .highlighter-rouge .highlight,
+.page-content figure.highlight,
+.post-content figure.highlight,
+.page-content pre,
+.post-content pre,
+.page-content pre code,
+.post-content pre code {
+  background-color: #101827 !important;
+  color: #e2e8f0 !important;
+  border-color: #35536a !important;
+}
+.page-content pre,
+.post-content pre {
+  max-width: 100%;
+  overflow-x: auto;
+}
