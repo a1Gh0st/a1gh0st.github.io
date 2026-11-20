@@ -27,7 +27,7 @@ permalink: /thm-writeups/
 
 
 
-<h2>Welcome to My Try Hack Me Write-ups</h2>
+<h2>Welcome to TryHackMe Write-ups</h2>
 
 <p>
 This is where I document my hands-on cybersecurity journey through TryHackMe.
