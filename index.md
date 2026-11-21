@@ -52,6 +52,6 @@ Here you'll find:
 
 ## Connect With A1Gh0st
 
-Follow **[A1Gh0st on X](https://x.com/Xa1gh0st)** for cybersecurity updates, lab notes, and technical progress.
+Follow **[A1Gh0st on X](https://x.com/_a1gh0st)** for cybersecurity updates, lab notes, and technical progress.
 
 *Learning. Practicing. Documenting.*
